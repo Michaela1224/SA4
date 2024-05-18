@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 30 10:13:35 2023
+# Process ID: 29490
+# Current directory: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls
+# Command line: vivado
+# Log file: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/vivado.log
+# Journal file: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/hls_prj/s1/impl/verilog/project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/hls_prj/s1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+Netlist sorting complete. Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.15 . Memory (MB): peak = 7899.469 ; gain = 0.000 ; free physical = 39008 ; free virtual = 109052
+INFO: [Netlist 29-17] Analyzing 1396 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 8255.742 ; gain = 41.445 ; free physical = 38540 ; free virtual = 108584
+Restored from archive | CPU: 1.210000 secs | Memory: 44.981438 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 8255.742 ; gain = 41.445 ; free physical = 38540 ; free virtual = 108584
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8655.828 ; gain = 0.000 ; free physical = 38166 ; free virtual = 108210
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 203 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 64 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 19 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 120 instances
+
+open_run: Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 8910.277 ; gain = 1299.332 ; free physical = 37971 ; free virtual = 108015
+report_utilization -name utilization_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 30 10:17:20 2023...

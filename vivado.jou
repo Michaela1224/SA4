@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Sep 30 10:13:35 2023
+# Process ID: 29490
+# Current directory: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls
+# Command line: vivado
+# Log file: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/vivado.log
+# Journal file: /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /media/michaela/D/forth_pipelineSA/SA_arch_experi/ultra96/ourSA_v1_8_8_hls/hls_prj/s1/impl/verilog/project.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+report_utilization -name utilization_1
